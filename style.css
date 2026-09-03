@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+body{
+    background-color: rgb(248, 223, 227);
+}
+
+header{
+    height: 70px;
+    background-color: rgb(224, 127, 143);
+    color: white;
+
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+nav {
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: blueviolet;
+}
+
+.Saludo{
+    background-color: rgb(244, 230, 238); 
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+
+.Saludo h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: palevioletred;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-color: palevioletred;
+    background-color: rgb(254, 237, 240);
+    cursor: pointer;
+}
+
+button:hover{
+    color: blueviolet;
+}
+
+.juegos{
+    padding: 50px;
+}
+
+.juegos h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:palevioletred;
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 35px;
+}
+
+.contenidojuegos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    width: 250px;
+    background-color: white;
+    padding: 15px;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tarjeta h3 {
+    text-align: center;
+    color: palevioletred;
+}
+
+.tarjeta p{
+    text-align: center;
+}
+
+.tarjeta img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    height: 70px;
+   background-color:  rgb(224, 127, 143);
+   color: white;
+   text-align: center;
+   padding: 15px;
+}
+
+.fin{
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.fin a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.fin a:hover{
+    color: blueviolet;
+}
